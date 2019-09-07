@@ -409,8 +409,8 @@ m_optionalSecondCoordInfo(optionalSecondCoordInfo)
         case AnnotationCoordinateSpaceEnum::STEREOTAXIC:
         case AnnotationCoordinateSpaceEnum::SURFACE:
         case AnnotationCoordinateSpaceEnum::TAB:
-        case AnnotationCoordinateSpaceEnum::SPACE:
         case AnnotationCoordinateSpaceEnum::WINDOW:
+        case AnnotationCoordinateSpaceEnum::SPACER:
             break;
         case AnnotationCoordinateSpaceEnum::VIEWPORT:
             CaretAssert(0);
