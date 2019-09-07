@@ -414,6 +414,8 @@ m_optionalSecondCoordInfo(optionalSecondCoordInfo)
         case AnnotationCoordinateSpaceEnum::VIEWPORT:
             CaretAssert(0);
             break;
+        default:
+            break;
     }
     
     setSizePolicy(QSizePolicy::Fixed,
